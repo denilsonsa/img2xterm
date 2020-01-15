@@ -9,7 +9,7 @@ logic, providing cleaner output on terminals with nice bitmap fonts.
 
 This is an example of a cowfile created with img2xterm's `--cow` option:
 
-![Example of img2xterm in action.](http://img2xterm.sooaweso.me/demo.png)
+![Example of img2xterm in action.](lenna-img2xterm.png)
 
 img2xterm uses a modified version of the algorithm used in [xterm256-conv] [3]
 in order to have an accurate representation of the upper 240 colours used in
@@ -37,7 +37,7 @@ simply run:
     $ make
     # make install
 
-A [GIMP] [7] palette containing the upper 240 colours used in xterm is also
+A [GIMP] [6] palette containing the upper 240 colours used in xterm is also
 available. It can be used for dithering images before conversion. To install,
 run:
 

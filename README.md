@@ -3,15 +3,15 @@ img2xterm: display images on the terminal
 
 img2xterm is a program that can display bitmap images on 256-colour terminals
 by converting them into Unicode block characters and xterm compatible control
-sequences. Based on software by [lachs0r] [1] and Xebec for creating colourful
-[cowfiles] [2], img2xterm improves on the colour selection and block printing
+sequences. Based on software by [lachs0r][1] and Xebec for creating colourful
+[cowfiles][2], img2xterm improves on the colour selection and block printing
 logic, providing cleaner output on terminals with nice bitmap fonts.
 
 This is an example of a cowfile created with img2xterm's `--cow` option:
 
 ![Example of img2xterm in action.](lenna-img2xterm.png)
 
-img2xterm uses a modified version of the algorithm used in [xterm256-conv] [3]
+img2xterm uses a modified version of the algorithm used in [xterm256-conv][3]
 in order to have an accurate representation of the upper 240 colours used in
 xterm. Modification was needed in order to fix the range of the grey ramp.
 
@@ -22,8 +22,8 @@ xterm. Modification was needed in order to fix the range of the grey ramp.
 Dependencies
 ------------
 
-Before compilation, make sure you have development versions of [libpng]
-[4] (for image reading) and [Ncurses] [5] (for terminfo support, optional).
+Before compilation, make sure you have development versions of [libpng][4]
+(for image reading) and [Ncurses][5] (for terminfo support, optional).
 
 [4]: http://www.libpng.org/pub/png/libpng.html
 [5]: http://www.gnu.org/software/ncurses/ncurses.html
@@ -37,7 +37,7 @@ simply run:
     $ make
     # make install
 
-A [GIMP] [6] palette containing the upper 240 colours used in xterm is also
+A [GIMP][6] palette containing the upper 240 colours used in xterm is also
 available. It can be used for dithering images before conversion. To install,
 run:
 
@@ -64,6 +64,6 @@ To generate a cowfile:
 
 Known issues
 ------------
-* There is something wrong with the implementation of [CIE94 delta-E] [8].
+* There is something wrong with the implementation of [CIE94 delta-E][8].
 
 [8]: https://en.wikipedia.org/wiki/Color_difference#CIE94

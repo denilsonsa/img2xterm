@@ -67,3 +67,13 @@ Known issues
 * There is something wrong with the implementation of [CIE94 delta-E][8].
 
 [8]: https://en.wikipedia.org/wiki/Color_difference#CIE94
+
+Other similar projects
+----------------------
+
+* <https://github.com/kfei/img2xterm> - Another fork from <https://github.com/rossy/img2xterm>
+* <https://github.com/posva/catimg> - C and bash
+* <https://github.com/wavebeem/img-cat> - JavaScript
+* <https://github.com/eliukblau/pixterm> - Go
+* <https://github.com/hopey-dishwasher/termpix> - Rust
+* <https://github.com/maandree/util-say/> - Java
